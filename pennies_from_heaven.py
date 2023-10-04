@@ -17,7 +17,7 @@ print(the_change)
 num_of_quarters = the_change // p_in_quarter
 print(num_of_quarters)
 
-num_of_dimes = the_change % p_in_dime
+num_of_dimes = the_change // p_in_dime
 print(num_of_dimes)
 
 num_of_nickels = the_change // p_in_nickel
